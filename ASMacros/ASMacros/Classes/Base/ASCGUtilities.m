@@ -18,6 +18,8 @@ CGSize ASScreenSize(void) {
             CGFloat tmp = size.height;
             size.height = size.width;
             size.width = tmp;
+            
+            
         }
     });
     return size;
